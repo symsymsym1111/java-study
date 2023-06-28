@@ -49,7 +49,12 @@ public class paint {
 		System.out.println(circle instanceof Drawable);
 		System.out.println(circle instanceof Object);
 		
+		// 오류 : class는 hierachy(계층) 상위와 하위만 instanceof 연산자를 사용할 수 있다.
+//		System.out.println(circle instanceof Rectangle);
 		
+		// 하지만 interface는 hierachy와 상관없이 instanceof 연산자를 사용할 수 있다.
+		System.out.println(circle instanceof Drawable);
+		System.out.println(circle instanceof Runnable); // runnable의 메소드가 circle에 구현되어 있는지를 묻는 것.
 		
 	}
 	
