@@ -10,7 +10,7 @@ public class ex30 {
 		int a1[] = new int[10];
 		System.out.println(a1.length);
 		
-		
+		// 강추
 		int[] a2 = new int[10];
 		System.out.println(a2.length);
 		

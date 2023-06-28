@@ -14,5 +14,6 @@
 	</properties>	
 	<modules>
 		<module>bb</module>
+		<module>chapter3</module>
 	</modules>
 </project>
