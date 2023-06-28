@@ -56,6 +56,7 @@ public class paint {
 		System.out.println(circle instanceof Drawable);
 		System.out.println(circle instanceof Runnable); // runnable의 메소드가 circle에 구현되어 있는지를 묻는 것.
 		
+		
 	}
 	
 	
