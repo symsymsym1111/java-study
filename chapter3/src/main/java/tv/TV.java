@@ -9,19 +9,25 @@ public class TV {
 	}
 
 	public void volume(int volume) {
+		
 		this.volume = volume;
+		
 	}
 	
 	public void volume(boolean up) {
+		this.volume = 1;
 		if(up) {
 			this.volume += 1;
-			System.out.println(volume);
-			if(volume == 100) {
-				this.volume = 1;
-			}
+				if(volume == 101) {
+					this.volume = 1;
+				}
+			
 		} else {
 			this.volume -= 1;
-			System.out.println(volume);
+				if(volume == 0) {
+					this.volume = 100;
+				}
+			
 		}
 	}
 	
@@ -30,6 +36,20 @@ public class TV {
 	}	
 	
 	public void channel(boolean up) {
+		this.channel = 1;
+		if(up) {
+			this.channel += 1;
+				if(channel == 255) {
+					this.channel = 1;
+				}
+			
+		} else {
+			this.channel -= 1;
+				if(channel == 0) {
+					this.channel = 255;
+				}
+			
+		}
 		
 	}	
 	
