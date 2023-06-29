@@ -21,7 +21,14 @@ public class GoodsApp {
 			int count = Integer.parseInt(info[2]);
 			
 			
-		}
+			
+			
+			
+			
+			}
+			
+			
+		
 		
 		
 		
@@ -30,9 +37,14 @@ public class GoodsApp {
 		
 		
 		
+		
+//		System.out.println("콜라(가격 : " + price + "원)이 " + count + "개 입고 되었습니다");
+//		System.out.println("사이다(가격 : " + price + "원)이 " + count + "개 입고 되었습니다");
+//		System.out.println("맥주(가격 : " + price + "원)이 " + count + "개 입고 되었습니다");
+		
+		
+		
 		// 자원정리
-		
-		
 		scanner.close();
 	}
 }
