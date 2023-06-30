@@ -11,10 +11,16 @@ public class Book {
 	
 	public void rent() {
 		stateRent = true;
+		System.out.println(title + "이(가) 대여됐습니다");
 	}
 	
 	public void print() {
-		System.out.println();
+		if(stateRent == true) {
+			System.out.println("책 제목 : " + title + ", 작가 : " + author + " 대여유무 : " + "대여중");
+		} else {
+			System.out.println("책 제목 : " + title + ", 작가 : " + author + " 대여유무 : " + "재고있음");
+		}
+		
 	}
 	
 	public Book(int bookNo, String title, String author) {
