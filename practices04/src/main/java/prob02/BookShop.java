@@ -28,10 +28,10 @@ public class BookShop {
 		scanner.close();
 		
 		// (1) 입력된 번호에 맞는 책을 찾아 대여 되었음(stateRent=true)을 체크 합니다.
-		
-		
-		
-		
+			
+			
+			
+			
 		// (2) Book 객체의 정보를 출력
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
@@ -39,7 +39,7 @@ public class BookShop {
 
 	private static void displayBookInfo(Book[] books) {
 		for(int i = 0; i < books.length; i++) {
-			books[i].print
+			books[i].print();
 		}
 		
 	}
